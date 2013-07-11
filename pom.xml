@@ -15,6 +15,21 @@
 			<artifactId>jersey-multipart</artifactId>
 			<version>1.17</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>javax.servlet</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+     		<groupId>org.mongodb</groupId>
+      		<artifactId>mongo-java-driver</artifactId>
+      		<version>2.11.1</version>
+    	</dependency>
+    	<dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-multipart</artifactId>
+			<version>1.17</version>
+		</dependency>
   </dependencies>
   <build>
     <finalName>Mongolo</finalName>
